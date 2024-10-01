@@ -18,7 +18,6 @@ spec:
         app: flask-app-2
     spec:
       containers:
-      #- image: aspadhi/flask-app-2:latest
       - image: kushagraag/{{IMAGE_NAME}}
         name: flask-app-2
         ports:
